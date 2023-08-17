@@ -1,0 +1,493 @@
+.home
+{
+  
+}
+
+.nav 
+{
+    
+}
+
+
+
+.home a
+{
+    list-style-type: none;
+
+}
+
+
+.anchora i
+{
+   color: blue;
+}
+
+li a:hover
+{
+    color: blue;
+}
+
+
+.navicon i
+{
+    color: blue;
+}
+
+
+
+.blu
+{
+    color: blue;
+}
+
+
+.mto
+{
+    margin-top: 80px;
+}
+
+
+.fit
+{
+   height: 100vh;
+   background-size: cover;
+   
+}
+
+.fithalf
+{
+    height: 70vh;
+    background-size: cover;
+}
+
+
+
+.hit
+{
+    height: 6px;
+}
+
+.bg-red
+{
+    background-color: blue;
+}
+
+.clor-gray
+
+{
+    color:#999;
+}
+.clor-gray
+{
+    color: black;
+}
+
+.line
+{
+    height: 1px;
+    width: 40px;
+    transition-duration: 0.5s;
+   
+    background-color: black;
+}
+
+.heit
+{
+    height: 50px;
+    width: 80px;
+   
+   
+}
+.hit2
+{
+    height: 50px;
+    width: 80px;
+}
+.heit:hover  .line
+{
+    width: 80px;
+    height: 2px;
+}
+
+.headofparent2:hover  .line
+{
+    width: 80px;
+    height: 2px;
+    color: #3a53e0;
+}
+
+.hit2:hover  .line
+{
+    width: 80px;
+}
+
+
+
+
+
+
+.parent
+{
+    position: relative;
+}
+
+.opc
+{
+    width: 100%;
+    background-color:rgba(0, 204, 255, 0.4);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    opacity: 0;
+   
+}
+
+
+.opc .icons
+{
+   
+    height: 100%;
+}
+
+.parent:hover .opc
+{
+    top: 0;
+    bottom: 0;
+ opacity: 1;
+}
+
+.parent img
+{
+    transition-duration: 0.5s;
+    
+}
+
+.parent:hover img
+{
+    transform: scale(1.2);
+    
+} 
+
+
+
+
+
+
+
+
+.coulr
+{
+    color: white;
+   
+}
+
+i
+{
+  
+  
+  color: white;
+}
+
+.hov:hover .textinfo
+{
+    color: rgb(69, 69, 238);
+    
+}
+
+.textinfo
+{
+    color: black;
+    transition-duration:0.5s;
+}
+
+
+.w-160
+{
+    width:160px;
+
+}
+
+.round
+{
+    border-radius: 5px;
+    
+}
+.round2
+{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border:  solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 1px; */
+}
+
+
+button
+{
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+    background-color: #3a53e0;
+}
+
+
+.quistion button:hover 
+{
+    background-color:rgba(71, 31, 180, 0.8) ;
+
+}
+
+.icona
+{
+    color: #3a53e0;
+}
+
+.displayicon h3
+{
+    transition-duration: 0.5s;
+}
+
+.sol:hover h3
+{
+    color: rgb(47, 47, 238);
+    transition-duration: 0.2s;
+}
+
+.colraddress
+{
+    color: rgb(41, 41, 226);
+}
+
+.frm button
+{
+    background-color: rgb(35, 35, 226);
+    
+}
+
+.footer
+{
+    /* background-image: url(../images/mission.jpg); */
+    /* background-image: url(../ImgNamaa/الصور-128.jpg); */
+    background-color: rgb(75, 75, 77);
+    background-size: cover;
+    background-position: 100% 100% ;
+    
+    height: 100%;
+    width: 100%;
+    border: 10px solid black;
+  
+} 
+
+.butonicon a
+{
+    text-decoration: none;
+}
+
+.w-logo
+{
+    width: 100px;
+}
+
+.cr 
+{
+    color: white;
+}
+
+.but-bord
+{
+    
+    
+    background-color: unset;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+
+ .no button:hover 
+{
+  color: rgb(46, 46, 228);
+  border: 1px solid rgb(60, 60, 221);
+}
+
+.nono a
+{
+
+   text-decoration-line: none;
+   color: white;
+}
+
+a
+{
+    transition-duration: 0.5s;
+}
+.nono a:hover
+{
+    color:darkorange;
+    transition-duration: 0.5s;
+}
+
+
+.footer .up
+{
+    /* background-color: rgb(242, 84, 84,0.9);    حرف*/
+    color:orange ;
+}
+
+.footer .up:hover
+{
+    color: blue;
+    transition-duration: 0.5s;
+}
+
+.het 
+{
+    height: 80px;
+}
+
+
+.fc-white
+{
+    color: white;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.zed
+{
+    z-index: 99999;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    
+    color: #fff;
+    background-color: unset;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-item .firsto p 
+{
+    color: white ;
+}
+/* 
+-------------------------------------    حوكمة */
+
+
+
+.fon
+{
+    font-weight: bold;
+    font-size: 150px;
+    color: #4C3D3D;
+}
+
+.fon2
+{
+    font-weight: bold;
+    font-size: 75px;
+    color: #271ccc;
+}
+
+
+
+
+/* 
+---------------------- */
+.titlehuge
+{
+   text-align: center;
+   font-size: 25px;
+   padding-top: 50px;
+}
+.huge
+{
+   width: 25%;
+   text-align: center;
+   float: left;
+   overflow: hidden;
+   transition-duration: 1s;
+   padding : 30px;
+  
+/* background-color: white; */
+}
+.huge img
+{
+   width: 20%;
+  transition-duration: 1s;
+}
+.containerhugebody
+{
+   /* background-color: thistle; */
+   height: 50vh;
+   
+
+}
+.containerhuge
+{
+   /* background-color: #ff305b; */
+   width: 100%;
+   margin: auto;
+   padding: 0px;
+   
+}
+
+.huge:hover
+{
+   background-color: rgba(243, 232, 232, 0.801);
+
+}
+
+.huge:hover img
+{
+   transform: scale(1.2);
+}
+
+
+.load
+{
+   position: absolute;
+   background-color:rgba(000, 000, 000, 0.9) ;
+   top: 0;
+   right: 0;
+   bottom: 0;
+   left: 0;
+   z-index: 555555555;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+.spin h1
+{
+
+    background-color: royalblue;
+  
+}
+
+.w
+{
+    border: #2f0986;
+    border-radius: 30px;
+}
+
+.caro{
+    cursor:pointer;
+}
+
+
+
+h1,h2
+{
+    color: #3a53e0;
+}
