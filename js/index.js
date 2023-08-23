@@ -77,3 +77,7 @@ $('.onec').click(function () {
     let bg=$(this).css('backgroundColor');
     $('.details h1').css('color', bg);
 })
+
+
+
+//final
